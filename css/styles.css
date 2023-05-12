@@ -33,7 +33,7 @@ i{
     padding: 2rem;
 }
 
-/* Cabeçalho e headre */
+/* Cabeçalho e header */
 #header {
     min-height: 90vh;
     background-image: url("../img/main_banner4.png");
@@ -287,6 +287,39 @@ i{
 
 .data .text {
     text-transform: uppercase;
+}
+
+#testmonials {
+    display: flex;
+    align-items: center;
+}
+
+#testmonial-information {
+    padding: 3rem
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.author .author-name {
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.author .author-job {
+    color: var(--secondary-text-color);
+}
+
+.author img {
+    width: 100px;
+    height: 100px;
 }
 
 
