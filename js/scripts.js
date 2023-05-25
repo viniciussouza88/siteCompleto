@@ -23,7 +23,7 @@ function smoothScroll(e) {
     );
 
     setTimeout (() => {
-        if (menu.classList.contains("#menu-active")) {
+        if (menu.classList.contains("menu-active")) {
             menu.classList.remove("menu-active");
         }
     }, 500);
